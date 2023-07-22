@@ -23,6 +23,6 @@ map("n", "<A-l>", "<C-w>l", opt)
 map("n", "<C-S-Left>", ":NvimTreeToggle<CR>", opt)
 
 -- 文件查找，
-map("n", "<C-S-r>", ":Telescope find_files<CR>", opt)
--- 内容查找
-map("n", "<C-S-f>", ":Telescope live_grep<CR>", opt)
+map("n", "<C-p>", ":Telescope find_files<CR>", opt)
+-- -- 内容查找
+map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
