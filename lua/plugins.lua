@@ -32,7 +32,20 @@ packer.startup(
    use 'hrsh7th/cmp-buffer'
    use 'hrsh7th/vim-vsnip'
 
+   -- comment/uncomment
+   use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+   }
+
    -- 命令行弹出框 TODO --
   --  use 'voldikss/vim-floaterm'
 
+  -- 自动增加括号对
+  use {
+    "windwp/nvim-autopairs",
+      config = function() require("nvim-autopairs").setup {} end
+  }
 end)

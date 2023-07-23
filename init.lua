@@ -9,7 +9,7 @@ require("plugin-config.lualine")
 require("plugin-config.nvim-treesitter")
 require("plugin-config.mason")
 require("plugin-config.rust-tools")
-
+require("plugin-config.comment")
 
 --Set completeopt to have a better completion experience
 -- :help completeopt

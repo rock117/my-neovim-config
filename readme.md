@@ -1,4 +1,4 @@
-### 快捷键
+### 常用操作
 1. alt + h,l => 光标在侧边栏与文件之间移动
 2. 分屏/合屏(split) => sv/sh, sc
 3. ctrl + shit + h => 打开关闭侧边栏(显示隐藏目录)
@@ -8,6 +8,11 @@
 7. ctrl + f => (当前工作目录内)全局搜索文件内容，搜索的輸入框内，按esc后，可在結果中用vim快捷鍵移動光標
 8. ctrl + p => (当前工作目录内)全局搜索文件
 9. TSBufToggle highlight
+10. 新建文件/目录 => 打开侧边栏后，光标移动到目标目录，输入a, 出现路径输入框，接着输入文件名(如 myfile)，如果是新建目录则输入 mydir/
+(windows 则是 mydir\) 
+12. 重命名文件/目录 => 打开侧边栏，光标移动到目标文件/目录，输入e, 改成对应的名字
+13. 删除文件/目录 => 打开侧边栏后，光标移动到目标目录/文件，输入d     
+14. 注释代码 => v模式下 gb 行注释, 注释/取消注释. gc 块注释
 
 ### LSP, Rust
 https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/
