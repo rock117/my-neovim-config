@@ -13,6 +13,26 @@ packer.startup(
    use {'nvim-lualine/lualine.nvim', requires = { 'nvim-tree/nvim-web-devicons', opt = true }}
    -- 模糊搜索 --
    use {'nvim-telescope/telescope.nvim', tag = '0.1.2',requires = { {'nvim-lua/plenary.nvim'} }}
-   -- 语法高亮
+   -- 语法高亮 --
    use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+
+   -- LSP, Lspconfig -- 
+   use {"williamboman/mason.nvim",run = ":MasonUpdate"}
+   use 'williamboman/mason-lspconfig.nvim'
+   use 'neovim/nvim-lspconfig'
+   use 'simrat39/rust-tools.nvim'
+
+   -- code auto completion 
+   use 'hrsh7th/nvim-cmp'
+   use 'hrsh7th/cmp-nvim-lsp'
+   use 'hrsh7th/cmp-nvim-lua'
+   use 'hrsh7th/cmp-nvim-lsp-signature-help'
+   use 'hrsh7th/cmp-vsnip'
+   use 'hrsh7th/cmp-path'
+   use 'hrsh7th/cmp-buffer'
+   use 'hrsh7th/vim-vsnip'
+
+   -- 命令行弹出框 TODO --
+  --  use 'voldikss/vim-floaterm'
+
 end)

@@ -26,3 +26,9 @@ map("n", "<C-S-Left>", ":NvimTreeToggle<CR>", opt)
 map("n", "<C-p>", ":Telescope find_files<CR>", opt)
 -- -- 内容查找
 map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
+
+
+-- 命令行弹出框 FloaTerm configuration TODO
+-- map('n', "<leader>ft", ":FloatermNew --name=myfloat --height=0.8 --width=0.7 --autoclose=2 fish <CR> ", opt)
+-- map('n', "t", ":FloatermToggle myfloat<CR>", opt)
+-- map('t', "<Esc>", "<C-\\><C-n>:q<CR>", opt)

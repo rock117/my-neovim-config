@@ -9,6 +9,9 @@
 8. ctrl + p => (当前工作目录内)全局搜索文件
 9. TSBufToggle highlight
 
+### LSP, Rust
+https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/
+
 ### 常用命令
 :checkhealth telescope
 TSInstallInfo 命令查看 language parsers 列表与安装状态
