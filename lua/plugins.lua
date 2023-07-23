@@ -13,6 +13,6 @@ packer.startup(
    use {'nvim-lualine/lualine.nvim', requires = { 'nvim-tree/nvim-web-devicons', opt = true }}
    -- 模糊搜索 --
    use {'nvim-telescope/telescope.nvim', tag = '0.1.2',requires = { {'nvim-lua/plenary.nvim'} }}
-
-
+   -- 语法高亮
+   use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 end)
